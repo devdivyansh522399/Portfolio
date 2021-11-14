@@ -4,25 +4,38 @@ body{
     line-height: 1.5px ;
     padding: 0;
     margin: 0;
-    background: #f4f4f4;
+    background-color: #f4f4f4;
 }
-header .container{
+.container_1{
     width: 90%;
-    margin: 30px;
+    margin: 0px;
     overflow: hidden;
-    height: 70px;
+    height:  auto;
     
 }
+.container_2{
+    width: 80%;
+    margin: 0px;
+    /* overflow: hidden; */
+    height:  auto;
+}
+.container_3{
+    width: 80%;
+    margin: 0px;
+    overflow: hidden;
+    height:  auto;
+}
+
 header{
     background-color: #35424a;
     color: antiquewhite;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: #e8491d 5px solid;
+    border-bottom: #e8491d 3px solid;
     border-radius: 5px;
 } 
 header a{
-    color: #ffff;
+    color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
@@ -35,14 +48,15 @@ header ul{
 header li{
     float: left;
     display: inline;
-    padding: 0 20px 0 20px; 
+    padding: 0 20px 0 20px;
+    
 }
 header #branding{
     float: left;
 }
 
 header #branding h1{
-    margin-top: 10;
+    margin-top: 10px ; 
 }
 header nav{
     float: right;
@@ -51,35 +65,44 @@ header nav{
 }
 header .hightlight, header .current a{
     font-weight: bold;
-    color:#e8491d
+    color:#a72c0a
 }
-header a:hover{
+header a:hover{ 
     font-weight: bold;
     color:#cccccc
    
 }
 #showcase{
-    margin: 0 0 0 0 ;
+    
     min-height: 500px;
-    /* display: inline-block; */
     background: url('/project1/img/wallpaperflare.com_wallpaper\ \(1\).jpg') no-repeat 0 -300px;
     text-align: center;
-    color: #020202;
+    color: #e71111;
     
     
     
 }
-#showcase h1{
-    margin-top: 0px;
+#showcase div h1{
+    margin-top: 75px ;
     font-size: 55px;
     margin-bottom: 10px;
+    
 
 }
-#showcase p{
-    height: 200px;
-    z-index: 3;
-    font-size: 40px;
+#boxes{
+    margin-top: 20px;
 }
-#newslatter{
-    padding: 15px;
+#boxes .box1{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+footer  {
+margin: 20px;
+margin-top: 20px;
+color-adjust: #ffffff;
+background-color: #e8491d;
+text-align: center;
 }
