@@ -1,0 +1,143 @@
+ *{
+     margin:0;
+     padding:0;
+     box-sizing: border-box;
+     text-decoration: none;
+     overflow-x: hidden ;
+ }
+ header{
+     margin: 0 0 0 0;
+ }
+ header .max-width{
+     max-width: 1300px;
+     padding: 0 80px;
+     margin: auto;
+ }
+ /*navbar style  */
+ header .navbar{
+     display: flex;
+     position: fixed;
+     padding: 15px 0;
+     width: 100%;
+     background: rgba(0, 0, 0, 0.329);
+     font-family: Arial, Helvetica, sans-serif;
+     box-shadow: 0 0 20px 0 black;
+ }
+
+ header .navbar .max-width{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ header .navbar .logo a{
+     color: #fff;
+     font-size: 35px;
+     font-weight: 600;
+ }
+
+header .navbar .menu li {
+    color: #fff;
+    display: inline-block;
+}
+header .navbar .menu li a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+/* Home section */
+.home{
+    display: flex;
+    background: url(/project1/img/wallpaperflare.com_wallpaper\ \(1\).jpg) no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 40px 0 black;
+} 
+.home .max-width{
+
+display: block;
+margin: auto 0 auto 40px;
+border-color: aliceblue 15px;
+}
+
+.home .home-content .text-1{
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 700;
+}
+.home .home-content .text-2{
+    display: flex;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: bolder;
+}
+.home .home-content .text-3{
+    display: flex;
+     font-style: normal;
+    font-weight: bolder;
+}
+.home ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.home ul .img{
+    margin: auto 20px auto 600px;
+    box-sizing: 200px;
+}
+.divyansh{
+    border-radius: 50%;
+}
+
+/* About me section */
+.about{
+    background-color: rgb(15, 1, 1);
+    height: auto;
+    color: #fff;
+    min-height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 40px 0 black;
+}
+.about .header .heading{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px auto 20px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    font-style: italic;
+}
+.about .header .container_1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.about .header .container_1 ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.about .Quates{
+    height: auto;
+    margin: 20px 5px 10px 10px;
+   border: solid rgb(196, 189, 189);
+   background-color: rgb(100, 54, 65);
+   font-style: italic;
+   border-style: inset;
+}
+
+.about .content{
+    height: auto;
+    margin: 20px 5px 10px 10px;
+   border: solid rgb(196, 189, 189);
+   background-color: rgb(100, 54, 65);
+   font-style: italic;
+   border-style: inset;
+
+}
