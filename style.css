@@ -1,3 +1,6 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather+Sans&display=swap');
  *{
      margin:0;
      padding:0;
@@ -15,29 +18,40 @@
  }
  /*navbar style  */
  header .navbar{
-     display: flex;
      position: fixed;
      padding: 15px 0;
      width: 100%;
-     background: rgba(0, 0, 0, 0.329);
+     background: rgba(15, 1, 1, 0.877);
      font-family: Arial, Helvetica, sans-serif;
      box-shadow: 0 0 20px 0 black;
+     
  }
 
  header .navbar .max-width{
      display: flex;
      align-items: center;
      justify-content: space-between;
+     flex-wrap: wrap;
  }
  header .navbar .logo a{
+     display: flex;
      color: #fff;
      font-size: 35px;
      font-weight: 600;
+     flex-wrap: wrap;
+     float: left;
  }
 
 header .navbar .menu li {
+    display: flex;
     color: #fff;
-    display: inline-block;
+    font-size: 35px;
+     font-weight: 600;
+     flex-wrap: wrap;
+     float: right;
+
+    
+
 }
 header .navbar .menu li a{
     color: #fff;
@@ -49,33 +63,40 @@ header .navbar .menu li a{
 /* Home section */
 .home{
     display: flex;
-    background: url(/project1/img/wallpaperflare.com_wallpaper\ \(1\).jpg) no-repeat center;
+    background: url(/project1/img/background.jpg) no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: 0 0 40px 0 black;
+    flex-wrap: wrap;
 } 
 .home .max-width{
 
-display: block;
-margin: auto 0 auto 40px;
+display: flex;
 border-color: aliceblue 15px;
+align-items: center;
+justify-content: space-around;
+flex-wrap: wrap;
 }
-
+.home-content{
+    border: #fff 15px;
+    margin-left: 40px;
+}
 .home .home-content .text-1{
     font-size: 35px;
     font-style: italic;
     font-weight: 700;
 }
 .home .home-content .text-2{
-    display: flex;
+ 
     font-size: 30px;
     font-style: oblique;
     font-weight: bolder;
+    
 }
 .home .home-content .text-3{
-    display: flex;
+    
      font-style: normal;
     font-weight: bolder;
 }
@@ -83,11 +104,17 @@ border-color: aliceblue 15px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    flex-flow: wrap-reverse;
 
 }
-.home ul .img{
-    margin: auto 20px auto 600px;
+.home .img{
+    
+    display: flex;
+    margin-left: 500px ;
     box-sizing: 200px;
+    flex-wrap: wrap;
+    
 }
 .divyansh{
     border-radius: 50%;
@@ -95,12 +122,12 @@ border-color: aliceblue 15px;
 
 /* About me section */
 .about{
-    background-color: rgb(15, 1, 1);
+    background-color: rgb(13, 9, 54);
+    background-image: linear-gradient( rgb(1, 4, 43) , rgba(233, 37, 37, 0.589));
     height: auto;
     color: #fff;
     min-height: 500px;
     font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 0 0 40px 0 black;
 }
 .about .header .heading{
     display: flex;
@@ -111,33 +138,138 @@ border-color: aliceblue 15px;
     font-size: 30px;
     font-weight: 800;
     font-style: italic;
+    flex-wrap: wrap;
 }
 .about .header .container_1{
     display: flex;
     text-align: center;
     justify-content: center;
+    flex: wrap;
 }
-.about .header .container_1 ul{
+.about .header .container_2{
     display: flex;
-    align-items: center;
+    text-align: center;
     justify-content: center;
-
+    flex: wrap;
 }
-.about .Quates{
+
+
+.about .Quates, .Quates2, .Quates3{
     height: auto;
     margin: 20px 5px 10px 10px;
    border: solid rgb(196, 189, 189);
    background-color: rgb(100, 54, 65);
    font-style: italic;
    border-style: inset;
+   box-shadow: 0px 0px 10px 0px rgb(252, 239, 239);
 }
+
+
 
 .about .content{
+    
     height: auto;
     margin: 20px 5px 10px 10px;
    border: solid rgb(196, 189, 189);
    background-color: rgb(100, 54, 65);
    font-style: italic;
    border-style: inset;
+   box-shadow: 0px 0px 10px 0px rgb(252, 239, 239);
+}
+.skills{
+    background-color: rgb(13, 8, 71);
+    background-image: linear-gradient( rgba(233, 37, 37, 0.589) , rgb(199, 177, 177));
+    height: auto;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+.skills .header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px auto 20px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    font-style: italic;
+    flex-wrap: wrap;
+    
 
 }
+
+.skills .banner, .banner2{
+    
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.skills .items{
+    display: flex;
+    border: 5px solid rgb(14, 11, 11);
+    width: 25%;
+    height: 400px;
+    overflow-y: hidden;
+    border-radius: 5%;
+    border-style: groove;
+    box-shadow: 0px 0px 10px px     rgb(37, 21, 21);;
+    flex-wrap: wrap;
+}
+
+.item1{     
+    position: relative;
+    left: 18px;
+    top: 10px;
+    height: 95%;
+    width: 90%;
+    
+}
+.item2{
+    position: relative;
+    left: 18px;
+    top: 20px;
+    height: 90%;
+    width: 90%;
+   
+}
+.item3{
+    position: relative;
+    left: 15px;
+    top: 30px;
+    height: 85%;
+    width: 85%;
+   
+}
+.item4{
+    position: relative;
+    left: 10px;
+    top: 12px;
+    height: 80%;
+    width: 90%;
+   
+}
+.skills .items2{
+    margin-top: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border: 5px solid rgb(36, 33, 33);
+    width: 25%;
+    height: 50px;
+    border-radius: 10%;
+    border-style: groove;
+    box-shadow: 0px 0px 10px px     rgb(37, 21, 21);;
+    flex-wrap: wrap;
+}
+.skills .items2 .h1
+{
+ color: rgb(39, 19, 19)
+}
+
+
+
+
+ 
