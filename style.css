@@ -11,6 +11,11 @@
     color:rgb(255, 255, 255);
     scale: (1.1);
 }
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
 html{
     font-size: 62.5%;
     overflow-x: hidden;
@@ -296,19 +301,19 @@ html{
     font-size: 40px;
     padding:1rem 0;
     color:#fff;
-    text-decoration: underline;
+    
 }
 
 .footer .box-container .box p{
-    font-size: 1.5rem;
-    padding:.5rem 0;
+    font-size: 24px;
+    padding:.80px 0;
     color:#eee;
 }
 
 .footer .box-container .box a{
     display: block;
-    font-size: 1.5rem;
-    padding:.5rem 0;
+    font-size: 14px;
+    padding: 8px 0;
     color:#eee;
 }
 
@@ -328,9 +333,9 @@ html{
     background:#fff;
     color:var(--pink);
     font-size: 24px;
-    height:4.5rem;
-    width:4.5rem;
-    line-height: 4.5rem;
+    height: 72px;
+    width: 72px;
+    line-height: 80px;
     text-align: center;
 }
 
