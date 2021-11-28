@@ -227,7 +227,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(/project1/img/—Pngtree—purple\ solid\ square\ geometric\ composition_5334139.png);
+    background-image: url(img/header_background.png);
     flex-wrap: wrap;
     
     padding-bottom: 64px;
@@ -282,9 +282,10 @@ html{
 
 .footer{
     padding-top: 50px;
-    background:url(../img/footer-bg.png) no-repeat;
+    background:url(img/footer-bg.png) no-repeat;
     background-size: cover;
     background-position: center;
+    z-index: 50;
 }
 
 .footer .box-container{
